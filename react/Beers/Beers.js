@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Nav from '../sharedResources/Nav'
+import Nav from '../sharedResources/Nav';
+import OnTap from './OnTap'
 
 class Beers extends Component {
   constructor(props){
@@ -14,6 +15,7 @@ class Beers extends Component {
       <div>
         <Nav className='top-nav'/>
         <h1>BEEEEEEEERS</h1>
+        <OnTap />
       </div>
     )
   }

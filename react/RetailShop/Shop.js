@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import Nav from '../sharedResources/Nav'
 
-class People extends Component{
+class Shop extends Component {
   constructor(props){
     super(props);
     this.state = {
@@ -12,11 +11,10 @@ class People extends Component{
   render(){
     return(
       <div>
-        <Nav className='top-nav'/>
-        <h1>PEOOOOOOOPLE</h1>
+        <h1>SHOOOOOOOOOOOOOOP</h1>
       </div>
     )
   }
 }
 
-export default People;
+export default Shop;
