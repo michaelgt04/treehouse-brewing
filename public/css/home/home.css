@@ -89,42 +89,9 @@
   background-size: cover;
   background-position: center; }
 
-.home-nav {
-  background-color: rgba(0, 0, 0, 0.6);
-  width: 100vw;
-  height: 15vh;
-  margin-top: 80vh;
-  position: fixed; }
-  .home-nav img {
-    top: 20%;
-    width: 200px;
-    height: 70pxvh;
-    position: relative; }
-  .home-nav a {
-    padding-left: 2%;
-    color: white;
-    text-decoration: none;
-    position: relative;
-    top: 5%; }
-
-.top-nav {
-  background-color: black;
-  width: 100vw;
-  height: 15vh;
-  position: fixed; }
-  .top-nav img {
-    top: 20%;
-    width: 200px;
-    height: 70pxvh;
-    position: relative; }
-  .top-nav a {
-    padding-left: 2%;
-    color: white;
-    text-decoration: none;
-    position: relative;
-    top: 5%; }
-
 h1 {
-  padding-top: 10%; }
+  padding-top: 10%;
+  font-family: 'Cabin', sans-serif;
+  margin: 0; }
 
 /*# sourceMappingURL=home.css.map */
