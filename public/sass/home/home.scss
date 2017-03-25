@@ -1,0 +1,132 @@
+@mixin full-screen-image {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover
+}
+
+.background0 {
+  background: url(https://static1.squarespace.com/static/501bb93ec4aa651f100e3b0f/501bb93ec4aa651f100e3b15/5867c6a5c534a514406fffb8/1483700363008/FullSizeRender+27.jpg?format=2500w);
+  @include full-screen-image;
+  background-position: bottom;
+}
+
+.background1 {
+  background: url(https://static1.squarespace.com/static/501bb93ec4aa651f100e3b0f/501bb93ec4aa651f100e3b15/57ff86aa414fb54338507183/1483700363019/FullSizeRender+15.jpg?format=2500w);
+  @include full-screen-image;
+  background-position: bottom;
+}
+
+.background2{
+  background: url(https://static1.squarespace.com/static/501bb93ec4aa651f100e3b0f/501bb93ec4aa651f100e3b15/56166537e4b042d6d89f5bf2/1483700363092/?format=2500w);
+  @include full-screen-image;
+  background-position: top;
+}
+
+.background3{
+  background: url(https://static1.squarespace.com/static/501bb93ec4aa651f100e3b0f/501bb93ec4aa651f100e3b15/57fc1dab2e69cfddffb3e36c/1483700363089/FullSizeRender+13.jpg?format=2500w);
+  @include full-screen-image;
+  background-position: center;
+}
+
+.background4{
+  background: url(https://static1.squarespace.com/static/501bb93ec4aa651f100e3b0f/501bb93ec4aa651f100e3b15/560d566fe4b0edc898c490b5/1483700363098/?format=2500w);
+  @include full-screen-image;
+  background-position: center;
+}
+
+.background5{
+  background: url(https://static1.squarespace.com/static/501bb93ec4aa651f100e3b0f/501bb93ec4aa651f100e3b15/5810b32b2e69cf6ad159a5d6/1483700363102/FullSizeRender+23.jpg?format=2500w);
+  @include full-screen-image;
+  background-position: center;
+}
+
+.background6{
+  background: url(https://static1.squarespace.com/static/501bb93ec4aa651f100e3b0f/501bb93ec4aa651f100e3b15/51fc31b6e4b00f4020e95e77/1483700363149/IMG_1490.jpg?format=2500w);
+  @include full-screen-image;
+  background-position: center;
+}
+
+.background7{
+  background: url(https://static1.squarespace.com/static/501bb93ec4aa651f100e3b0f/501bb93ec4aa651f100e3b15/518e9807e4b0e86c59620572/1483700363157/IMG_1123.jpg?format=2500w);
+  @include full-screen-image;
+  background-position: center;
+}
+
+.background8{
+  background: url(https://static1.squarespace.com/static/501bb93ec4aa651f100e3b0f/501bb93ec4aa651f100e3b15/55d48809e4b00fab3a96b56d/1483700363161/?format=2500w);
+  @include full-screen-image;
+  background-position: center;
+}
+
+.background9{
+  background: url(https://static1.squarespace.com/static/501bb93ec4aa651f100e3b0f/501bb93ec4aa651f100e3b15/52ed161de4b00b0adad8bf46/1483700363165/IMG_2704.jpg?format=2500w);
+  @include full-screen-image;
+  background-position: center;
+}
+
+.background10{
+  background: url(https://static1.squarespace.com/static/501bb93ec4aa651f100e3b0f/501bb93ec4aa651f100e3b15/55417695e4b086faa73e30c6/1483700363225/?format=2500w);
+  @include full-screen-image;
+  background-position: center;
+}
+
+.background11{
+  background: url(https://static1.squarespace.com/static/501bb93ec4aa651f100e3b0f/501bb93ec4aa651f100e3b15/531e3a1ce4b00720a47985e5/1483700363238/IMG_2858.jpg?format=2500w);
+  @include full-screen-image;
+  background-position: center;
+}
+
+.background12{
+  background: url(https://static1.squarespace.com/static/501bb93ec4aa651f100e3b0f/501bb93ec4aa651f100e3b15/560fffa5e4b0147725a6dcb6/1483700363273/?format=2500w);
+  @include full-screen-image;
+  background-position: center;
+}
+
+.home-nav{
+  background-color: rgba(0,0,0, .6);
+  width: 100vw;
+  height: 15vh;
+  margin-top: 80vh;
+  position: fixed;
+
+  img {
+    top: 20%;
+    width: 200px;
+    height: 70pxvh;
+    position: relative;
+  }
+
+  a {
+    padding-left: 2%;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 5%;
+  }
+}
+
+.top-nav {
+  background-color: rgb(0,0,0);
+  width: 100vw;
+  height: 15vh;
+  position: fixed;
+
+  img {
+    top: 20%;
+    width: 200px;
+    height: 70pxvh;
+    position: relative;
+  }
+
+  a {
+    padding-left: 2%;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 5%;
+  }
+}
+
+h1 {
+  padding-top: 10%
+}
