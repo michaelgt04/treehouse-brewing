@@ -1,0 +1,7 @@
+Beer.create(name: 'Doppelganger', imgUrl: 'https://pbs.twimg.com/media/C7sXDjnVQAEv-Di.jpg')
+Beer.create(name: 'Sap', imgUrl: 'https://pbs.twimg.com/media/C7msh2GXUAM-ts9.jpg:large')
+Beer.create(name: 'Lights On', imgUrl: 'https://pbs.twimg.com/media/C69fYKjVoAIW6ga.jpg:large')
+Beer.create(name: 'Green', imgUrl: 'https://pbs.twimg.com/media/C6v5RM5WkAAEGfj.jpg:large')
+Beer.create(name: 'Haze', imgUrl: 'https://pbs.twimg.com/media/C6k02NMU0AA7WOV.jpg:large')
+Beer.create(name: 'Eureka', imgUrl: 'https://pbs.twimg.com/media/C6jmZVeU0AMt4EU.jpg:large')
+Beer.create(name: 'Bright', imgUrl: 'https://pbs.twimg.com/media/C6e-KIzVUAASTfI.jpg:large')
