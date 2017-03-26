@@ -2,9 +2,9 @@ import React from 'react';
 
 const BeerTile = props => {
   return(
-    <div className='beer-tile'>
+    <div onMouseEnter={props.onHover} onMouseLeave={props.onMouseLeave} className='beer-tile'>
       <img src={props.imgUrl} />
-      <span>{props.name}</span>
+      <span>{props.spanText}</span>
     </div>
   )
 }

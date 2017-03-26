@@ -17,6 +17,7 @@ const Nav = props => {
         <Link to='/'>Home</Link>
         <Link to='retail-shop'>Retail Shop</Link>
         <Link to='beers'>Beers</Link>
+        <Link to='on-tap'>On Tap</Link>
         <Link to='team'>Team</Link>
       </div>
     </div>

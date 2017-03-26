@@ -2,7 +2,7 @@ development:
   adapter: postgresql
   encoding: unicode
   database: tree_house_development
-  pool: 2
+  pool: 5
   username: mthomson
   password: ENV['DATABASE_PASSWORD']
 
@@ -10,7 +10,7 @@ test:
   adapter: postgresql
   encoding: unicode
   database: tree_house_testing
-  pool: 2
+  pool: 5
   username: mthomson
   password: ENV['DATABASE_PASSWORD']
 
@@ -18,6 +18,5 @@ production:
   adapter: postgresql
   encoding: unicode
   database: tree_house_production
-  pool: 2
   username: mthomson
   password: ENV['DATABASE_PASSWORD']
