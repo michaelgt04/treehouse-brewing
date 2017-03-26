@@ -15,7 +15,6 @@
   .links-div {
     display: inline;
     position: relative;
-    bottom: 1.5vh;
   }
 
   a {
@@ -39,6 +38,7 @@
   width: 100vw;
   height: 10vh;
   position: fixed;
+  z-index: 1000;
 
   img {
     padding-left: 2%;
