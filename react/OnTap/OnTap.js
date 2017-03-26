@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Nav from '../sharedResources/Nav';
 
 class OnTap extends Component {
   constructor(props){
@@ -10,6 +11,7 @@ class OnTap extends Component {
   render(){
     return(
       <div>
+        <Nav className='top-nav'/>
         <h1>ONTAPPPPPP</h1>
       </div>
     )

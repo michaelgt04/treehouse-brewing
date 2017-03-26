@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Palanquin+Dark|Raleway");
+@import url("https://fonts.googleapis.com/css?family=Droid+Sans|Open+Sans");
 .background0 {
   background: url(https://static1.squarespace.com/static/501bb93ec4aa651f100e3b0f/501bb93ec4aa651f100e3b15/5867c6a5c534a514406fffb8/1483700363008/FullSizeRender+27.jpg?format=2500w);
   height: 100vh;
@@ -92,7 +92,8 @@
 
 h1 {
   padding-top: 10%;
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Droid Sans', sans-serif;
+  font-weight: bold;
   margin: 0; }
 
 .home-nav {
@@ -114,7 +115,7 @@ h1 {
     color: #AAAAAA;
     text-decoration: none;
     position: relative;
-    font-family: 'Palanquin Dark', sans-serif;
+    font-family: 'Droid Sans', sans-serif;
     font-size: 1rem;
     top: 5%; }
   .home-nav a:hover {
@@ -143,7 +144,7 @@ h1 {
     color: #AAAAAA;
     text-decoration: none;
     position: relative;
-    font-family: 'Palanquin Dark', sans-serif;
+    font-family: 'Droid Sans', sans-serif;
     font-size: 1rem; }
   .top-nav a:hover {
     border-bottom: 1px solid white;
@@ -171,13 +172,21 @@ h1 {
     top: 45%;
     text-align: center;
     position: absolute;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 2rem;
     color: white; }
 
 .beers-container {
   padding-top: 10vh;
-  margin-left: 1%; }
+  margin: 0 5%; }
+  .beers-container .title {
+    font-family: 'Droid Sans', sans-serif;
+    text-align: center;
+    font-weight: bold; }
+  .beers-container p {
+    margin: 1% 5%;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.75rem; }
 
 body {
   margin: 0; }
