@@ -38,9 +38,15 @@
     position: relative; }
   .top-nav .links-div {
     display: inline;
-    margin-left: 65%;
+    margin-left: 15%;
     position: relative;
     bottom: 1.75vh; }
+    @media (min-width: 1000px) {
+      .top-nav .links-div {
+        margin-left: 40%; } }
+    @media (min-width: 1400px) {
+      .top-nav .links-div {
+        margin-left: 65%; } }
   .top-nav a {
     margin: 0 1%;
     color: #AAAAAA;
