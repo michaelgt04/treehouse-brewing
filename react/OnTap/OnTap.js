@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Nav from '../sharedResources/Nav';
+import LiveUpdateGrowler from './LiveUpdateGrowler';
+import LiveUpdateCans from './LiveUpdateCans';
 
 class OnTap extends Component {
   constructor(props){
@@ -8,11 +10,13 @@ class OnTap extends Component {
 
     }
   }
+
   render(){
     return(
       <div>
         <Nav className='top-nav'/>
-        <h1>ONTAPPPPPP</h1>
+        <LiveUpdateGrowler />
+        <LiveUpdateCans />
       </div>
     )
   }

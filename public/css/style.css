@@ -194,6 +194,20 @@ h1 {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.75rem; }
 
+.live-update-cans {
+  display: inline-block;
+  width: 49%;
+  padding-top: 10vh; }
+  .live-update-cans h1 {
+    text-align: center; }
+
+.live-update-growlers {
+  display: inline-block;
+  width: 49%;
+  padding-top: 10vh; }
+  .live-update-growlers h1 {
+    text-align: center; }
+
 body {
   margin: 0; }
 
