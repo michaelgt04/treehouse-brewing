@@ -13,6 +13,13 @@
     background-color: rgba(0, 0, 0, 0.1); }
   .live-update .beer-display-tile {
     padding: 5px;
-    margin: 4px; }
+    margin: 6px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1); }
+
+.on-tap-div p {
+  margin: 1% 5%;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.75rem; }
 
 /*# sourceMappingURL=live-update.css.map */

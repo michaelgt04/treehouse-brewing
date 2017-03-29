@@ -35,10 +35,15 @@ class OnTap extends Component {
 
   render(){
     return(
-      <div>
+      <div className='on-tap-div'>
         <Nav className='top-nav'/>
         <LiveUpdateGrowler beers={this.state.beers}/>
         <LiveUpdateCans beers={this.state.beers}/>
+        <p>
+          This page is accurate to start retail hours and will ALWAYS be updated AS SOON AS BEER IS PACKAGED!
+          ONCE OUR RETAIL HOURS BEGIN WE CANNOT GUARANTEE THAT THESE BEERS WILL BE AVAILABLE WHEN YOU ARRIVE!
+          LIMITS MAY BE ADJUSTED AT ANY TIME.  FOLLOW @treehousebrewco on Twitter for real time updates
+        </p>
       </div>
     )
   }
