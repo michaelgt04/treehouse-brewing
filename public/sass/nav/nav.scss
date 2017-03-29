@@ -50,9 +50,17 @@
 
   .links-div {
     display: inline;
-    margin-left: 65%;
+    margin-left: 15%;
     position: relative;
     bottom: 1.75vh;
+
+    @media(min-width: 1000px){
+      margin-left: 40%
+    }
+
+    @media(min-width: 1400px){
+      margin-left: 65%
+    }
   }
 
   a {
