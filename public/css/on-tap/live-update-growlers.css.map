@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,qBAAsB;EACpB,OAAO,EAAE,YAAY;EACrB,KAAK,EAAE,GAAG;EACV,WAAW,EAAE,IAAI;EAEjB,wBAAG;IACD,UAAU,EAAE,MAAM",
-"sources": ["../../sass/on-tap/live-update-growlers.scss"],
-"names": [],
-"file": "live-update-growlers.css"
-}

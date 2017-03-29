@@ -10,10 +10,20 @@ class LiveUpdateGrowler extends Component {
   }
 
   render(){
+    let beers = this.props.beers.map(beer => {
+      return(
+        <BeerListDisplayTile
+          key={beer.id}
+          name={beer.name}
+          available={beer.growlers}
+        />
+      )
+    })
+
     return (
-      <div className='live-update-growlers'>
+      <div className='live-update'>
         <h1>Growlers</h1>
-        <BeerListDisplayTile />
+        {beers}
       </div>
     )
   }

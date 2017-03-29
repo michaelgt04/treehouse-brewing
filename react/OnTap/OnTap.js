@@ -7,16 +7,38 @@ class OnTap extends Component {
   constructor(props){
     super(props);
     this.state = {
-
+      beers: [],
+      timeoutId: null
     }
+  }
+
+  checkBeers(){
+    fetch('/api/v1/beers')
+    .then(response => {
+      let beers = response.json()
+      return beers
+    }).then(beers => {
+      this.setState({ beers: beers })
+    })
+  }
+
+  componentDidMount(){
+    this.checkBeers()
+
+    let timeoutId = setInterval(() => { this.checkBeers() }, 30000)
+    this.setState({ timeoutId: timeoutId })
+  }
+
+  componentWillUnmount(){
+    clearInterval(this.state.timeoutId)
   }
 
   render(){
     return(
       <div>
         <Nav className='top-nav'/>
-        <LiveUpdateGrowler />
-        <LiveUpdateCans />
+        <LiveUpdateGrowler beers={this.state.beers}/>
+        <LiveUpdateCans beers={this.state.beers}/>
       </div>
     )
   }

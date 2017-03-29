@@ -194,19 +194,22 @@ h1 {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.75rem; }
 
-.live-update-cans {
+.live-update {
   display: inline-block;
-  width: 49%;
-  padding-top: 10vh; }
-  .live-update-cans h1 {
+  width: 48%;
+  margin-top: 10vh;
+  padding: 0 1%; }
+  .live-update h1 {
     text-align: center; }
-
-.live-update-growlers {
-  display: inline-block;
-  width: 49%;
-  padding-top: 10vh; }
-  .live-update-growlers h1 {
-    text-align: center; }
+  .live-update span {
+    font-family: 'Droid Sans', sans-serif; }
+  .live-update .status {
+    float: right; }
+  .live-update .sold-out {
+    background-color: rgba(0, 0, 0, 0.1); }
+  .live-update .beer-display-tile {
+    padding: 5px;
+    margin: 4px; }
 
 body {
   margin: 0; }

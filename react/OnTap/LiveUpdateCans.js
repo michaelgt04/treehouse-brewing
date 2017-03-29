@@ -10,10 +10,20 @@ class LiveUpdateCans extends Component{
   }
 
   render(){
+    let beers = this.props.beers.map(beer => {
+      return(
+        <BeerListDisplayTile
+          key={beer.id}
+          name={beer.name}
+          available={beer.cans}
+        />
+      )
+    })
+
     return(
-      <div className='live-update-cans'>
+      <div className='live-update'>
         <h1>Cans</h1>
-        <BeerListDisplayTile />
+        {beers}
       </div>
     )
   }

@@ -1,0 +1,31 @@
+.live-update {
+  display: inline-block;
+  width: 48%;
+  margin-top: 10vh;
+  padding: 0 1%;
+
+  h1 {
+    text-align: center;
+  }
+
+  span {
+    font-family: 'Droid Sans', sans-serif;
+  }
+
+  .status {
+    float: right;
+  }
+
+  .available {
+
+  }
+
+  .sold-out {
+    background-color: rgba(0,0,0, .1);
+  }
+
+  .beer-display-tile {
+    padding: 5px;
+    margin: 4px;
+  }
+}
