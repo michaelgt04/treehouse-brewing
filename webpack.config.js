@@ -4,13 +4,6 @@ module.exports = {
     path: __dirname,
     filename: './public/bundle.js'
   },
-  resolve: {
-    root: __dirname,
-    alias: {
-
-    },
-    extensions: ['', '.js', '.jsx']
-  },
   module: {
     loaders: [
       {
