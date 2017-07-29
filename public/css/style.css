@@ -178,9 +178,10 @@ h1 {
     top: 45%;
     text-align: center;
     position: absolute;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 2rem;
     color: white; }
+    .beer-tile span font {
+      family: 'Open Sans', sans-serif;
+      size: 2rem; }
 
 .beers-container {
   padding-top: 10vh;
@@ -194,24 +195,29 @@ h1 {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.75rem; }
 
-.live-update {
+.on-tap-div h1 {
+  text-align: center; }
+
+.live-update span {
+  font-family: 'Droid Sans', sans-serif; }
+.live-update .available {
+  background-color: rgba(20, 180, 110, 0.8); }
+.live-update .sold-out span {
+  color: rgba(0, 0, 0, 0.5); }
+.live-update .beer-display-tile {
+  width: 30%;
+  height: 20%;
+  margin: 6px;
   display: inline-block;
-  width: 48%;
-  margin-top: 10vh;
-  padding: 0 1%; }
-  .live-update h1 {
-    text-align: center; }
-  .live-update span {
-    font-family: 'Droid Sans', sans-serif; }
-  .live-update .status {
-    float: right; }
-  .live-update .sold-out {
-    background-color: rgba(0, 0, 0, 0.1); }
-  .live-update .beer-display-tile {
-    padding: 5px;
-    margin: 6px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1); }
+  text-align: center; }
+  .live-update .beer-display-tile .beer-display-name {
+    height: 100%;
+    width: 49%;
+    display: inline-block; }
+  .live-update .beer-display-tile .beer-display-status {
+    height: 100%;
+    width: 49%;
+    display: inline-block; }
 
 .on-tap-div p {
   margin: 1% 5%;

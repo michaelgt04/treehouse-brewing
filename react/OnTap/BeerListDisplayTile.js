@@ -1,16 +1,29 @@
 import React from 'react';
 
 const BeerListDisplayTile = props => {
-  let displayMessage;
-  if(props.available){
-    displayMessage = 'available'
+  let cansDisplayMessage;
+  if(props.availableCans){
+    cansDisplayMessage = 'available'
   } else {
-    displayMessage = 'sold-out'
+    cansDisplayMessage = 'sold-out'
+  }
+
+  let growlersDisplayMessage;
+  if(props.availableGrowlers){
+    growlersDisplayMessage = 'available'
+  } else {
+    growlersDisplayMessage = 'sold-out'
   }
 
   return(
-    <div className={`beer-display-tile ${displayMessage}`}>
-      <span>{props.name}</span><span className='status'>{displayMessage}</span>
+    <div className='beer-display-tile'>
+      <div className='beer-display-name'>
+        <p>{props.name}</p>
+      </div>
+      <div className='beer-display-status'>
+        <p className={`${cansDisplayMessage}`}>Cans: {cansDisplayMessage}</p>
+        <p className={`${growlersDisplayMessage}`}>Growlers: {growlersDisplayMessage}</p>
+      </div>
     </div>
   )
 }

@@ -1,36 +1,43 @@
-.live-update {
-  display: inline-block;
-  width: 48%;
-  margin-top: 10vh;
-  padding: 0 1%;
-
+.on-tap-div {
   h1 {
     text-align: center;
   }
+}
 
+.live-update {
   span {
     font-family: 'Droid Sans', sans-serif;
   }
 
-  .status {
-    float: right;
-  }
-
   .available {
-
+    background-color: rgba(20, 180, 110, .8);
   }
 
   .sold-out {
-    background-color: rgba(0,0,0, .1);
+    span {
+      color: rgba(0,0,0, .5);
+    }
   }
 
   .beer-display-tile {
-    padding: 5px;
+    width: 30%;
+    height: 20%;
     margin: 6px;
-    border-bottom: 1px solid rgba(0,0,0, .1);
-    box-shadow: 4px 4px 4px rgba(0,0,0, .1);
-  }
+    display: inline-block;
+    text-align: center;
 
+    .beer-display-name{
+      height: 100%;
+      width: 49%;
+      display: inline-block;
+    }
+
+    .beer-display-status{
+      height: 100%;
+      width: 49%;
+      display: inline-block;
+    }
+  }
 }
 
 .on-tap-div{
