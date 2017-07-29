@@ -7,7 +7,7 @@ const Nav = props => {
     imgUrl = 'https://res.cloudinary.com/duor0bzmo/image/upload/v1490473577/TreeHouseLogo_obsz35.png';
     linksDiv = 'links-div';
   } else {
-    imgUrl = "http://static1.squarespace.com/static/501bb93ec4aa651f100e3b0f/t/54fcb3efe4b0443041485eec/1490403063657/?format=1000w";
+    imgUrl = 'http://static1.squarespace.com/static/501bb93ec4aa651f100e3b0f/t/54fcb3efe4b0443041485eec/1490403063657/?format=1000w';
   }
 
   return(
