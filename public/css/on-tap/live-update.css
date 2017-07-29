@@ -1,0 +1,30 @@
+.on-tap-div h1 {
+  text-align: center; }
+
+.live-update span {
+  font-family: 'Droid Sans', sans-serif; }
+.live-update .available {
+  background-color: rgba(20, 180, 110, 0.8); }
+.live-update .sold-out span {
+  color: rgba(0, 0, 0, 0.5); }
+.live-update .beer-display-tile {
+  width: 30%;
+  height: 20%;
+  margin: 6px;
+  display: inline-block;
+  text-align: center; }
+  .live-update .beer-display-tile .beer-display-name {
+    height: 100%;
+    width: 49%;
+    display: inline-block; }
+  .live-update .beer-display-tile .beer-display-status {
+    height: 100%;
+    width: 49%;
+    display: inline-block; }
+
+.on-tap-div p {
+  margin: 1% 5%;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.75rem; }
+
+/*# sourceMappingURL=live-update.css.map */
